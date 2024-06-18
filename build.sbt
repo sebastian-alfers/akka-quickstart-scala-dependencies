@@ -13,7 +13,7 @@ resolvers += "Akka library repository".at("https://repo.akka.io/maven/")
 fork := true
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor-typed" % "2.8.5",
+  "com.typesafe.akka" %% "akka-actor-typed" % "2.9.3",
   "ch.qos.logback" % "logback-classic" % "1.5.6",
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.8.5" % Test,
   "org.scalatest" %% "scalatest" % "3.2.18" % Test
