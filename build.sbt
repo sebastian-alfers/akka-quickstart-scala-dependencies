@@ -4,7 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.13.14"
 
-resolvers += "Akka library repository".at("https://repo.akka.io/maven")
+resolvers += "Akka library repository".at("https://repo.akka.io/maven/")
 
 // Run in a separate JVM, to make sure sbt waits until all threads have
 // finished before returning.
