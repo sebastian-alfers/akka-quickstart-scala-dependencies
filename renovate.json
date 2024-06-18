@@ -6,7 +6,8 @@
   "packageRules": [
     {
       "matchDatasources": ["sbt-package", "maven"],
-      "defaultRegistryUrls": ["https://repo1.maven.org/maven2", "https://repo.akka.io/maven"]
+      "registryUrls": ["https://repo1.maven.org/maven2", "https://repo.akka.io/maven"],
+      "versioning": "maven"
     }
   ]   
 }
