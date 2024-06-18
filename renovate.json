@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchDatasources": ["sbt-package"],
-      "registryUrls": ["https://packages.atlassian.com/mvn/maven-atlassian-external/"]
+      "registryUrls": ["https://repo.akka.io/maven/", "https://packages.atlassian.com/mvn/maven-atlassian-external/"]
     }
   ]   
 }
